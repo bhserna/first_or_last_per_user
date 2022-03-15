@@ -49,3 +49,5 @@ ruby example/00_example.rb
 ```
 
 4. **Change the seeds**  on `db/seeds.rb` and re-run `ruby db/setup.rb` to test different scenarios.
+
+**This example uses the [Active Record Playground](https://github.com/bhserna/active_record_playground) by [bhserna](https://bhserna.com)**
