@@ -1,6 +1,8 @@
 # Simple first or last per user
 
-Have you ever needed to get the most recent record for each user in #rails, but didn't know how to do it without using map?
+This example is based on a [proposal](https://twitter.com/stevepolitodsgn/status/1503345127846301703) of [Steave Polito](https://twitter.com/stevepolitodsgn).
+
+Have you ever needed to get the most recent record for each user in rails, but didn't know how to do it without using map?
 
 Here is an example of a simple way to do it when you can use the `id` column to sort the records.
 
