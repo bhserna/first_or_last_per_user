@@ -36,7 +36,7 @@ But in this repo you will find 5 ways of doing it and two benchmarks that you ca
 
 The 5 methods are:
 
-* [Using min() and max()](00_min_max.rb)
+* [Using min() and max()](examples/00_min_max.rb)
 * [Using distinct_on](01_distinct_on.rb)
 * [Using distinct_on with arel](02_distinct_on_arel.rb)
 * [Using a lateral join](03_lateral_join.rb)
