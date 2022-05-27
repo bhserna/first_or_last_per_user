@@ -37,15 +37,15 @@ But in this repo you will find 5 ways of doing it and two benchmarks that you ca
 The 5 methods are:
 
 * [Using min() and max()](examples/00_min_max.rb)
-* [Using distinct_on](01_distinct_on.rb)
-* [Using distinct_on with arel](02_distinct_on_arel.rb)
-* [Using a lateral join](03_lateral_join.rb)
-* [Using a window function](04_window_function.rb)
+* [Using distinct_on](examples/01_distinct_on.rb)
+* [Using distinct_on with arel](examples/02_distinct_on_arel.rb)
+* [Using a lateral join](examples/03_lateral_join.rb)
+* [Using a window function](examples/04_window_function.rb)
 
 The 2 benchamarks are:
 
-* [Memory benchmark code](05_memory_benchmark.rb)
-* [Iterations per second benchmark code](06_ips_benchmark.rb)
+* [Memory benchmark code](examples/05_memory_benchmark.rb)
+* [Iterations per second benchmark code](examples/06_ips_benchmark.rb)
 
 ## How to run the examples
 
