@@ -32,6 +32,21 @@ puts Post.last_per_user
 #    IN (SELECT max(id) FROM "posts" GROUP BY "posts"."user_id")
 ```
 
+But in this repo you will find 5 ways of doing it and two benchmarks that you can run to test for your use case.
+
+The 5 methods are:
+
+* [Using min() and max()](00_min_max.rb)
+* [Using distinct_on](01_distinct_on.rb)
+* [Using distinct_on with arel](02_distinct_on_arel.rb)
+* [Using a lateral join](03_lateral_join.rb)
+* [Using a window function](04_window_function.rb)
+
+The 2 benchamarks are:
+
+* [Memory benchmark code](05_memory_benchmark.rb)
+* [Iterations per second benchmark code](06_ips_benchmark.rb)
+
 ## How to run the examples
 
 1. **Install the dependencies** with `bundle install`.

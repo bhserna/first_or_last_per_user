@@ -13,10 +13,10 @@ def create_posts(users, count, &block)
   Post.insert_all(posts_data, record_timestamps: true)
 end
 
-users = create_users(10) do
+users = create_users(100) do
   { name: FFaker::Name.name }
 end
 
-create_posts(users, 10) do |user|
+create_posts(users, 100) do |user|
   { user_id: user.id, title: FFaker::CheesyLingo.title, body: FFaker::CheesyLingo.paragraph }
 end
