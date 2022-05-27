@@ -1,4 +1,4 @@
-# Simple first or last per user
+# First or last per user with ruby on rails
 
 This example is based on a [proposal](https://twitter.com/stevepolitodsgn/status/1503345127846301703) of [Steave Polito](https://twitter.com/stevepolitodsgn).
 
