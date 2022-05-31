@@ -32,7 +32,7 @@ puts Post.last_per_user
 #    IN (SELECT max(id) FROM "posts" GROUP BY "posts"."user_id")
 ```
 
-But in this repo you will find 5 ways of doing it and two benchmarks that you can run to test for your use case.
+But in this repo you will find 5 ways of doing it, two benchmarks that you can run to test for your use case, and two examples on how to associate the posts to the users.
 
 The 5 methods are:
 
@@ -46,6 +46,11 @@ The 2 benchamarks are:
 
 * [Memory benchmark code](examples/05_memory_benchmark.rb)
 * [Iterations per second benchmark code](examples/06_ips_benchmark.rb)
+
+The 2 examples on how to associates the posts to the users are:
+
+* [A has one association](examples/07_has_one.rb)
+* [A preload object](examples/08_preload_object.rb)
 
 ## How to run the examples
 
