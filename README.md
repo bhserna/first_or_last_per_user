@@ -1,7 +1,5 @@
 # First or last per user with ruby on rails
 
-This example is based on a [proposal](https://twitter.com/stevepolitodsgn/status/1503345127846301703) of [Steave Polito](https://twitter.com/stevepolitodsgn).
-
 Have you ever needed to get the most recent record for each user in rails, but didn't know how to do it without using map?
 
 Here is an example of a simple way to do it when you can use the `id` column to sort the records.
@@ -70,4 +68,10 @@ ruby example/00_example.rb
 
 4. **Change the seeds**  on `db/seeds.rb` and re-run `ruby db/setup.rb` to test different scenarios.
 
-**This example uses the [Active Record Playground](https://github.com/bhserna/active_record_playground) by [bhserna](https://bhserna.com)**
+## Inspiration
+
+This example is based on a [proposal](https://twitter.com/stevepolitodsgn/status/1503345127846301703) of [Steave Polito](https://twitter.com/stevepolitodsgn).
+
+## Active Record Playground
+
+This example uses the [Active Record Playground](https://github.com/bhserna/active_record_playground) by [bhserna](https://bhserna.com)
