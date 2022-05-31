@@ -1,6 +1,12 @@
 # First or last per user with ruby on rails
 
-Have you ever needed to get the most recent record for each user in rails, but didn't know how to do it without using map?
+Have you ever needed to get the most recent post for each user in rails, but didn't know how to do it without using map?
+
+Or maybe something similar like:
+
+- The first or last comment for each post
+- The first or last payment for each customer
+- The first or last review for each customer
 
 Here is an example of a simple way to do it when you can use the `id` column to sort the records.
 
