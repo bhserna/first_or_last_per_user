@@ -79,3 +79,10 @@ Benchmark.ips do |benchmark|
 
   benchmark.compare!
 end
+
+# Comparison:
+#                  min:      193.8 i/s
+#          distinct_on:       56.7 i/s - 3.42x  (± 0.00) slower
+#     distinct_on arel:       54.3 i/s - 3.57x  (± 0.00) slower
+#      window_function:       45.0 i/s - 4.31x  (± 0.00) slower
+#         lateral_join:       16.8 i/s - 11.55x  (± 0.00) slower
